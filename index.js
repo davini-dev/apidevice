@@ -10,7 +10,11 @@ app.listen(PORT, () => {
 })
 
 app.get('/', (req, res) => {
+
   res.send('Hey this is my API running 🥳'+req.query.id);
+
+  res.send('Hey this is my API running Gay 🥳'+req.query.id)
+
 })
 
 app.get('/start', (req, res) => {
